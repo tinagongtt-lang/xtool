@@ -1,7 +1,12 @@
-# 文件: xtool/xmath/Cargo.toml
 [package]
-name = "xmath"
-version = "0.0.1"
+name = "xtool"
+version = "0.1.0"
 edition = "2021"
+# 补充下面这些信息可以消除警告（Warning），让你的库更专业
+description = "A collection of math and utility tools in Rust"
+license = "MIT"
+repository = "https://github.com/tinagongtt-lang/xtool"
 
 [dependencies]
+# 关键修改：增加 version
+xmath = { path = "./xmath", version = "0.1.0" }

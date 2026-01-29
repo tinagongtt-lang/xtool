@@ -2,7 +2,7 @@
 
 [package]
 name = "xtool"
-version = "0.1.0"
+version = "0.0.1"
 edition = "2021"
 
 # 注意：这里不再是 [workspace] 了，因为 xtool 本身就是一个库
