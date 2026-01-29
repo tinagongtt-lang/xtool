@@ -3,7 +3,7 @@
 [package]
 name = "xtool"
 version = "0.0.1"
-edition = "2026"
+edition = "2024"
 
 # 注意：这里不再是 [workspace] 了，因为 xtool 本身就是一个库
 # 但是我们用 dependencies 来连接它们
