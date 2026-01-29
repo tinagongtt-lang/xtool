@@ -1,0 +1,7 @@
+# 文件: xtool/xmath/Cargo.toml
+[package]
+name = "xmath"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]

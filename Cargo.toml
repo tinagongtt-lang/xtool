@@ -1,0 +1,13 @@
+# 文件: xtool/Cargo.toml
+
+[package]
+name = "xtool"
+version = "0.1.0"
+edition = "2021"
+
+# 注意：这里不再是 [workspace] 了，因为 xtool 本身就是一个库
+# 但是我们用 dependencies 来连接它们
+
+[dependencies]
+# 告诉 Rust，xmath 在当前目录的子文件夹里
+xmath = { path = "./xmath" }
