@@ -1,6 +1,6 @@
 [package]
 name = "xtool"
-version = "0.1.0"
+version = "0.0.1"
 edition = "2024"
 # 补充下面这些信息可以消除警告（Warning），让你的库更专业
 description = "A collection of math and utility tools in Rust"
